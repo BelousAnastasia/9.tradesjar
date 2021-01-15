@@ -50,7 +50,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .tab-content>.active{
         display: flex;
         justify-content: center;
-        height: auto;
     }
     .tab-content .tab-pane{
         padding: 0 15px;
@@ -157,7 +156,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .tab-content>.active{
         display: flex;
         justify-content: center;
-        height: ;
     }
     .carousel-item img{
         width: 100%!important;
@@ -223,7 +221,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 
     .card .tab-pane .taxa-img{
-        width: 55%;
+        width: 100%;
     }
 }
 
