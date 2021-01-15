@@ -50,7 +50,10 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .tab-content>.active{
         display: flex;
         justify-content: center;
-        height: ;
+        height: auto;
+    }
+    .tab-content .tab-pane{
+        padding: 0 15px;
     }
     .carousel-item img{
         width: 100%!important;
