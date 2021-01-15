@@ -44,8 +44,7 @@ and (max-width : 993px)
     }
 
     .tab-content>.active{
-        display: flex;
-        justify-content: center;
+        display: block;
     }
     .tab-content .tab-pane{
         padding: 0 15px;
@@ -142,8 +141,7 @@ and (max-width : 993px)
     }
 
     .tab-content>.active{
-        display: flex;
-        justify-content: center;
+        display: block;
     }
     .tab-content .tab-pane{
         padding: 0 15px;
@@ -248,8 +246,7 @@ and (max-width : 993px)
     }
 
     .tab-content>.active{
-        display: flex;
-        justify-content: center;
+        display: block;
     }
     .carousel-item img{
         width: 100%!important;
