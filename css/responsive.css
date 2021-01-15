@@ -1,0 +1,226 @@
+/* A mobile version for all devices that is smaller than the smalles iPad */
+@media(min-width:980px) and (max-width: 1199px) {
+    #mainmenu a{
+        padding: 30px 8px;
+    }
+
+    #mainmenu{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+
+}
+
+@media only screen 
+and (max-device-width : 993px) 
+ {
+    .contact{
+        display: none;
+    }
+}
+
+@media only screen 
+and (max-device-width : 768px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .h1{
+        font-size: 40px;
+        padding-left: 15px;
+    }
+
+    h2{
+        font-size: 32px;
+        padding: 20px 5px;
+    }
+
+    .d-none{
+        display: inline !important;
+    }
+
+    p.lead{
+        font-size: 17px;
+        padding-left: 15px;
+    }
+
+    .text-dark{
+        font-size: 16px;
+    }
+
+    .tab-content>.active{
+        display: flex;
+        justify-content: center;
+        height: ;
+    }
+    .carousel-item img{
+        width: 100%!important;
+    }
+    #mainmenu .mobile-disp{
+        display:contents;
+    }
+
+    #section-highlight{
+        padding: 10px 0 90px 0;
+    }
+
+    #section-testimonial{
+        padding: 10px 0 90px 0;
+    }
+
+    .feature-box.f-boxed{
+        padding: 20px;
+    }
+
+    .flickity-viewport{
+        height: 400px;
+    }
+
+    .card .tab-pane img{
+        padding:5px;
+        width: 75%;
+    }
+
+    .carousel-cell{
+        width: 100%;
+        height: 400px;
+    }
+
+    .card-body{
+        padding:0.8rem 0px!important;
+    }
+
+    .card-body p{
+        padding:0.8rem;
+    }
+
+    .carousel-caption h5{
+        font-size:15px;
+    }
+
+    .carousel-caption{
+        bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .flickity-page-dots{
+        bottom: -10px!important;
+    }
+
+    .carousel-cell img{
+        width: 100%!important;
+    }
+
+    .center-div{
+        width: 100%;
+    }
+
+
+    .card .tab-pane .taxa-img{
+        width: 100%;
+    }
+
+}
+
+    @media
+  only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (   min--moz-device-pixel-ratio: 3),
+  only screen and (     -o-min-device-pixel-ratio: 3/1),
+  only screen and (        min-device-pixel-ratio: 3),
+  only screen and (                min-resolution: 384dpi),
+  only screen and (                min-resolution: 3dppx) { 
+    .h1{
+        font-size: 40px;
+        padding-left: 15px;
+    }
+
+    h2{
+        font-size: 32px;
+        padding: 20px 5px;
+    }
+
+    .d-none{
+        display: inline !important;
+    }
+
+    p.lead{
+        font-size: 17px;
+        padding-left: 15px;
+    }
+
+    .text-dark{
+        font-size: 16px;
+    }
+
+    .tab-content>.active{
+        display: flex;
+        justify-content: center;
+        height: ;
+    }
+    .carousel-item img{
+        width: 100%!important;
+    }
+    #mainmenu .mobile-disp{
+        display:contents;
+    }
+
+    #section-highlight{
+        padding: 10px 0 90px 0;
+    }
+
+    #section-testimonial{
+        padding: 10px 0 90px 0;
+    }
+
+    .feature-box.f-boxed{
+        padding: 20px;
+    }
+
+    .flickity-viewport{
+        height: 400px;
+    }
+
+    .card .tab-pane img{
+        padding:5px;
+        width: 75%;
+    }
+
+    .carousel-cell{
+        width: 100%;
+        height: 400px;
+    }
+
+    .card-body{
+        padding:0.8rem 0px!important;
+    }
+
+    .card-body p{
+        padding:0.8rem;
+    }
+
+    .carousel-caption h5{
+        font-size:15px;
+    }
+
+    .carousel-caption{
+        bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .flickity-page-dots{
+        bottom: -10px!important;
+    }
+
+    .carousel-cell img{
+        width: 100%!important;
+    }
+
+    .center-div{
+        width: 100%;
+    }
+
+
+    .card .tab-pane .taxa-img{
+        width: 55%;
+    }
+}
+
